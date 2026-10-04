@@ -9,5 +9,15 @@ wheels/
 # Virtual environments
 .venv
 
-# Données personnelles (liste des groupes)
+# MLflow
+mlflow.db
+mlartifacts/
+mlruns/
+
+# Modeles 
+models/
+
+
+# Donnees personnelles et article source : le reste de doc/ est versionne
 doc/GroupesIDS2026.xlsx
+doc/article.pdf
