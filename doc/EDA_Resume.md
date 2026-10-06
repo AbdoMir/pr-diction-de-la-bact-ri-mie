@@ -204,7 +204,7 @@ Le test de Mann-Whitney confirme le classement : 44 variables sur 51 sont signif
 | Fichier | Contenu |
 |---|---|
 | `notebook/1.EDA.ipynb` | L'analyse exploratoire, groupe par groupe |
-| `notebook/2.Preprocessing.ipynb` | Pré-processing et modélisation, du CSV au modèle enregistré |
+| `notebook/2.MLFLOW-Prepro&Modeling.ipynb` | Pré-processing et modélisation, du CSV au modèle enregistré |
 | `doc/transformation.md` | Nettoyage, réparation, variables construites et transformations |
 | `doc/modelisation.md` | Les cinq modèles, le réglage du seuil et les résultats |
 | `doc/cahierVariables.csv` | Dictionnaire des variables fourni avec les données |

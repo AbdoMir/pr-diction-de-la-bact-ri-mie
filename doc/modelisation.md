@@ -1,6 +1,6 @@
 # Modélisation
 
-Comment on passe des données préparées au modèle enregistré. Tout est dans `notebook/2.Preprocessing.ipynb`, sections 6 à 11.
+Comment on passe des données préparées au modèle enregistré. Tout est dans `notebook/2.MLFLOW-Prepro&Modeling.ipynb`.
 
 La préparation des données est décrite dans [transformation.md](transformation.md).
 

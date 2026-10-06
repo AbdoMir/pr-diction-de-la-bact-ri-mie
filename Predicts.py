@@ -86,6 +86,13 @@ def predire(entree: Path, sortie: Path, chemin_modele: Path) -> None:
     ids = df["ID"]
     df = df.drop([c for c in ("ID", "BloodCulture") if c in df.columns])
 
+    if not chemin_modele.exists():
+        raise SystemExit(
+            f"{chemin_modele} : modele absent. "
+            "Executez notebook/2.MLFLOW-Prepro&Modeling.ipynb en entier : sa "
+            "derniere section reentraine le modele et l'enregistre dans models/."
+        )
+
     paquet = joblib.load(chemin_modele)
 
     # Les colonnes construites par preparer() portent le prefixe nb_ ou ratio_ :
